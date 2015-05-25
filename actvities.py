@@ -1,11 +1,12 @@
-import externalized.dropbox.activitykernel.DropboxActivityKernel
-
 '''
 Created on May 20, 2015
 
 @author: Weldon Henson
 '''
+
 from externalized.dropbox.activitykernel import DropboxActivityKernel
+import externalized.dropboxlib.activitykernel.DropboxActivityKernel
+
 
 class DropboxActivity(object):
     '''
